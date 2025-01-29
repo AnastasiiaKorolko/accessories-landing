@@ -1,5 +1,5 @@
 .phone-number {
-  display: none;
+  visibility: hidden;
   font-size: 18px;
   order: 1;
   cursor: pointer;
@@ -7,6 +7,7 @@
   padding: 8px 20px;
   border-radius: 8px;
   color: #fff;
+
 }
 
 .phone-number:hover {
@@ -18,8 +19,6 @@
   display: block;
   height: 24px;
   width: 24px;
-
-  // background-image: url('../images/icons/icon-burger-menu.png');
   background-size: cover;
   background-position: center;
 
@@ -35,7 +34,7 @@
     order: 2;
 
     &:hover + .phone-number {
-      display: inline-block;
+      visibility: visible;
     }
   }
 
