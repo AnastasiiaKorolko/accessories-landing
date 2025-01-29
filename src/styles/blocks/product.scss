@@ -28,6 +28,13 @@
     }
   }
 
+  &__price {
+    font-size: 16px;
+    font-weight: 700;
+    color: #292929;
+    font-family: $secondary-font-family;
+  }
+
   &__photo {
     width: 100%;
 

@@ -1,17 +1,17 @@
 .phone-number {
   visibility: hidden;
-  font-size: 18px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
   order: 1;
   cursor: pointer;
-  background-color: rgba(0, 0, 0, 0.45);
   padding: 8px 20px;
   border-radius: 8px;
-  color: #fff;
+  color: rgba(0, 0, 0, 0.45);
 
 }
 
 .phone-number:hover {
-  background-color: rgba(255, 255, 255, 0.45);
   color: #000;
 }
 

@@ -148,5 +148,7 @@
 }
 
 .contact-us__input--textarea {
-  resize: none;
+  height: 120px;
+  min-height: 80px;
+  resize: vertical;
 }
